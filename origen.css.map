@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AAAA,OAAO,CAAC;EACL,KAAK,EARE,OAAO;EASd,KAAK,EAAE,KAAQ;EACf,OAAO,EAAE,IAAI;EACZ,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACzB;;AACD,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,IAAI;EACb,gBAAgB,EAlBV,OAAO;EAoBT,KAAK,EAjBD,OAAO;CAqBlB",
+    "sources": [
+        "origen.scss"
+    ],
+    "names": [],
+    "file": "origen.css"
+}
