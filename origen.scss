@@ -1,18 +1,25 @@
+$titulo: 20px;
+$ancho: 780px;
 $violeta: #643c6c; 
 $lila: #c2b4cd;
 $amarillo: #ffd662;
 $grisclaro: #b0b7bd;
 $grisocuro: #828a8c;
-$titulo: 20px;
-$ancho: 780px;
 section {
-   color: $violeta;
-   width: $ancho/2;
-   padding: 10px;
+    color: $violeta;
+    width: $ancho/2;
+    padding: 10px;
     margin: 10px;
     display: flex;
     flex-direction: column;
+ }
+h1{
+    color: $violeta; font-size: 50px;
+    font-size: 7vw;
+    text-shadow: 2px 1px 10px $grisclaro;
 }
+ul{
+    list-style: none;}
 p {
     border: 6px;
     padding: 15px;
@@ -23,4 +30,82 @@ p {
         color: $amarillo;
     }
 }
-
+.texto{
+    color: $violeta;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+.texto2 {
+    color: $violeta;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+.cabecera{
+        display: flex;
+        justify-content: space-between;
+        .menu {
+            display: flex;
+            padding: 20px 10px;
+            list-style: square;
+            line-height: 1.6;
+            list-style: none;  
+            font-family:'Roboto', sans-serif;
+        & .menu2{
+            color: $violeta;
+            font-weight: 600;
+            font-size: 20px;
+            font-weight: 600;
+            &.menu2:hover{
+                border-bottom: 3px solid $grisclaro;
+            }
+        }
+    }
+    .logo {
+        padding: 20px 10px;
+    }   
+}
+.click{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+footer{
+    color: $violeta; 
+    font-family: "roboto-bold";
+    font-weight: bold;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+}
+#margen-interior{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#margen-exterior{
+    width: 100px;
+    max-width: 400px;
+    min-width: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
